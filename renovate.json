@@ -1,15 +1,23 @@
 {
-  "extends": ["config:base"],
+  "extends": [
+    "config:base"
+  ],
   "onboarding": false,
-  "pinVersions": false,
-  "semanticCommits": true,
+  "rangeStrategy": "replace",
+  "semanticCommits": "enabled",
   "timezone": "US/Central",
-  "baseBranch": "main",
+  "baseBranches": [
+    "main"
+  ],
   "packageRules": [
     {
-      "packageNames": ["helm"],
+      "matchPackageNames": [
+        "helm"
+      ],
       "extractVersion": "^v(?<version>.*)$"
     }
   ],
-  "lockFileMaintenance": {"enabled": false}
+  "lockFileMaintenance": {
+    "enabled": false
+  }
 }
