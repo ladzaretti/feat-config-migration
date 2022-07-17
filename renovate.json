@@ -1,13 +1,19 @@
 {
-  "extends": [":maintainLockFilesDisabled"],
+  "extends": [
+    ":maintainLockFilesDisabled"
+  ],
   "onboarding": false,
-  "pinVersions": false,
-  "semanticCommits": true,
+  "rangeStrategy": "replace",
+  "semanticCommits": "enabled",
   "timezone": "US/Central",
-  "baseBranch": "main",
+  "baseBranches": [
+    "main"
+  ],
   "packageRules": [
     {
-      "packageNames": ["helm"],
+      "matchPackageNames": [
+        "helm"
+      ],
       "extractVersion": "^v(?<version>.*)$"
     }
   ]
