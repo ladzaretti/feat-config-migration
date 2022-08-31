@@ -9,7 +9,7 @@
 	"pinVersions": false,
   "semanticCommits": "enabled",
   "timezone": "US/Central",
-  "baseBranches":["dev"],
+  "baseBranches":["dev","a"],
   "packageRules": [
     {
       "matchPackageNames": [
