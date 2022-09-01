@@ -4,7 +4,7 @@
   },
   "configMigration": true,
   "onboarding": false,
-  "pinVersions": false,
+  "rangeStrategy": "replace",
   "semanticCommits": "enabled",
   "timezone": "US/Central",
   "baseBranches": [
