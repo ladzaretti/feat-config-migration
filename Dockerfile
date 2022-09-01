@@ -1,1 +1,1 @@
-From debian:focal
+From debian:jammy
