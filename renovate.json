@@ -10,13 +10,9 @@
   "baseBranch": "main",
   "packageRules": [
     {
-      "matchPackageNames": [
-        "helm"
-      ],
+      "matchPackageNames": ["helm"],
       "extractVersion": "^v(?<version>.*)$",
-      "schedule": [
-        "at any time"
-      ]
+      "schedule": ["at any time"]
     }
   ]
 }
