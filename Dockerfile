@@ -1,1 +1,1 @@
-From debian:buster
+From debian:bullseye
