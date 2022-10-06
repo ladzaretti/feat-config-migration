@@ -1,1 +1,1 @@
-From debian:jammy
+From debian:buster
